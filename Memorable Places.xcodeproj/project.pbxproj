@@ -13,6 +13,8 @@
 		B1D2E6B31EC61F50004A2BBA /* Memorable_Places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1D2E6B11EC61F50004A2BBA /* Memorable_Places.xcdatamodeld */; };
 		B1D2E6B51EC61F50004A2BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D2E6B41EC61F50004A2BBA /* Assets.xcassets */; };
 		B1D2E6B81EC61F50004A2BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D2E6B61EC61F50004A2BBA /* LaunchScreen.storyboard */; };
+		B1D2E6C21EC62348004A2BBA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2E6C11EC62348004A2BBA /* MapViewController.swift */; };
+		B1D2E6C41EC6BBFE004A2BBA /* PlaceDataMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2E6C31EC6BBFE004A2BBA /* PlaceDataMgr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B1D2E6B41EC61F50004A2BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D2E6B71EC61F50004A2BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D2E6B91EC61F50004A2BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D2E6C11EC62348004A2BBA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B1D2E6C31EC6BBFE004A2BBA /* PlaceDataMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDataMgr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				B1D2E6AA1EC61F50004A2BBA /* AppDelegate.swift */,
 				B1D2E6AC1EC61F50004A2BBA /* ViewController.swift */,
+				B1D2E6C11EC62348004A2BBA /* MapViewController.swift */,
+				B1D2E6C31EC6BBFE004A2BBA /* PlaceDataMgr.swift */,
 				B1D2E6AE1EC61F50004A2BBA /* Main.storyboard */,
 				B1D2E6B41EC61F50004A2BBA /* Assets.xcassets */,
 				B1D2E6B61EC61F50004A2BBA /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 				B1D2E6AD1EC61F50004A2BBA /* ViewController.swift in Sources */,
 				B1D2E6B31EC61F50004A2BBA /* Memorable_Places.xcdatamodeld in Sources */,
 				B1D2E6AB1EC61F50004A2BBA /* AppDelegate.swift in Sources */,
+				B1D2E6C21EC62348004A2BBA /* MapViewController.swift in Sources */,
+				B1D2E6C41EC6BBFE004A2BBA /* PlaceDataMgr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
